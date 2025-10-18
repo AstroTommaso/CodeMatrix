@@ -1,0 +1,13 @@
+{
+    "name": "rest-api-php",
+    "description": "A simple REST API in PHP for testing with Postman",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
